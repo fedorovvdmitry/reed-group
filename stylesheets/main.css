@@ -175,11 +175,195 @@ section[id] {
   transform: translateX(0);
 }
 
+/* company history */
+
+#company-history h2 {
+  text-transform: uppercase;
+  width: max-content;
+  background-color: #10498a;
+  padding: 16px 80px 16px 100px;
+  margin: 40px 0 0;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+}
+
+.history-content,
+.park-project-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  padding: 40px 100px;
+}
+
+.history-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.history-images img {
+  width: 100%;
+}
+
+.history-description {
+  flex: 2;
+  color: #333;
+}
+
+.history-description p,
+.park-project-content p {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.timeline {
+  margin-top: 20px;
+}
+
+.timeline img {
+  width: 100%;
+  height: auto;
+}
+
+.timeline-event {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.timeline-event .year {
+  font-weight: bold;
+  color: #ee741d;
+  margin-right: 10px;
+}
+
+/* leadership strategy */
+
+#leadership-strategy h2,
+#park-project h2,
+#corporate-governance h2 {
+  text-transform: uppercase;
+  width: max-content;
+  background-color: #10498a;
+  padding: 16px 80px 16px 100px;
+  margin: 40px 0 0;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+}
+
+.leadership-content {
+  padding: 40px 100px;
+  gap: 40px;
+}
+
+.leader {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+
+  border-left: 3px solid #10498a;
+  padding-left: 20px;
+}
+
+.leader + .leader {
+  margin-top: 40px;
+}
+
+.leader-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.leader-quote {
+  flex: 1;
+}
+
+.leader-quote h3 {
+  font-size: 18px;
+  color: #10498a;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quote {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.quote-mark {
+  margin-top: 24px;
+  height: 50px;
+  width: 50px;
+  background-image: url('../images/quote.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.author {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Park project section */
+
+.text-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image-column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-column img {
+  max-width: 100%;
+  height: auto;
+}
+
+.highlight {
+  background-color: #ee741d;
+  color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.icon-paragraph {
+  position: relative;
+  padding-left: 40px;
+}
+
+.icon-paragraph::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 40px;
+  background: url('../images/park_icon.svg') no-repeat center center;
+  background-size: 80%;
+}
+
 /* footer */
 
 footer {
   display: flex;
   flex-direction: column;
+  margin-top: 80px;
   padding: 80px 100px;
   background-color: #f9f9fb;
 }
