@@ -376,12 +376,17 @@ section[id] {
 .resident-container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   gap: 40px;
   padding: 40px 100px;
 }
 
 .resident-profile {
   flex: 2;
+}
+
+.resident-profile h3.icon-paragraph {
+  margin-top: 40px;
 }
 
 .resident-profile h3 {
@@ -447,10 +452,17 @@ section[id] {
   font-weight: bold;
 }
 
-.column-image {
-  display: none;
-  width: 100%;
-  margin-top: 20px;
+.image-gallery {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.image-gallery img {
+  max-width: 30%;
+  height: 250px;
+  object-fit: cover;
 }
 
 /* strategy-development */
