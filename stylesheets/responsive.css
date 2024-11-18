@@ -1,0 +1,157 @@
+@media screen and (min-width: 1920px) {
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1023px) {
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1441px) {
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+  .cover h1 {
+    font-size: 32px;
+    margin-left: 60px;
+    line-height: normal;
+  }
+
+  .cover h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 32px 0;
+    padding: 40px 80px 40px 60px;
+    clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+  }
+
+  .customer-focus {
+    margin-left: 60px;
+    font-size: 32px;
+  }
+
+  .customer-focus .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
+  .cover h1 {
+    font-size: 24px;
+    margin-left: 30px;
+    line-height: normal;
+  }
+
+  .cover h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 32px 0;
+    padding: 20px 30px 20px 30px;
+    clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+  }
+
+  .customer-focus {
+    margin-left: 30px;
+    font-size: 16px;
+  }
+
+  .customer-focus .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 414px) and (min-width: 320px) {
+  .logo2 {
+    display: none;
+  }
+
+  .cover h1 {
+    font-size: 24px;
+    margin-left: 30px;
+    line-height: normal;
+  }
+
+  .cover h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 32px 0;
+    padding: 20px 30px 20px 30px;
+    clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
+  }
+
+  .customer-focus {
+    margin-left: 30px;
+    font-size: 16px;
+  }
+
+  .customer-focus .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+  }
+
+  .history-content,
+  .park-project-content,
+  .resident-container,
+  .strategy-content,
+  .competencies-content {
+    padding: 40px 30px;
+    flex-direction: column;
+  }
+
+  .leadership-content {
+    padding: 40px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .leader {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  #company-history h2,
+  #leadership-strategy h2,
+  #park-project h2,
+  #corporate-governance h2,
+  #anchor-residents h2,
+  #strategy-development h2,
+  #competencies h2 {
+    padding: 16px 40px 16px 24px;
+    font-size: 20px;
+  }
+
+  #corporate-governance {
+    overflow: hidden;
+  }
+
+  .profile-details {
+    flex-wrap: wrap;
+  }
+
+  .image-gallery {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .image-gallery img {
+    max-width: 100%;
+  }
+
+  .strategy-item-wrapper {
+    flex-wrap: wrap;
+  }
+
+  footer {
+    margin-top: 40px;
+    padding: 40px 30px;
+  }
+
+  .footer-content_top {
+    gap: 24px;
+    flex-direction: column;
+  }
+}
