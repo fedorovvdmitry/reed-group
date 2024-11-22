@@ -264,6 +264,10 @@ section[id] {
   clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
 }
 
+#corporate-governance h2:nth-of-type(2) {
+  display: none;
+}
+
 .leadership-content {
   padding: 40px 100px;
   gap: 40px;
