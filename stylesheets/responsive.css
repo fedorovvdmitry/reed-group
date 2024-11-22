@@ -62,8 +62,18 @@
 }
 
 @media screen and (max-width: 414px) and (min-width: 320px) {
+  .logo1 {
+    width: 120px;
+    height: 30px;
+  }
+
   .logo2 {
-    display: none;
+    width: 45px;
+    height: 50px;
+  }
+
+  .logo-container {
+    gap: 16px;
   }
 
   .cover h1 {
@@ -139,6 +149,7 @@
 
   .image-gallery img {
     max-width: 100%;
+    width: 100%;
   }
 
   .strategy-item-wrapper {
